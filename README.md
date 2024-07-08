@@ -32,3 +32,47 @@
       - writable, get
     - bootstrap: booptstrap
 ````
+
+
+### 2. API정의
+|번호|api|detail|method|return|
+|:--:|:--|:--|:--|:--|
+|1|/api/question/|list|get|[]|
+|2||detail/{question_id}|get|{}|
+|3||create|post|204|
+|4||update|put|204|
+|5||delete|delete|204|
+|6||vote|post|204|
+|1|/api/user/|login|post|204|
+|2||create|post|204|
+|1|/api/answer/|create|post|204|
+|2||detail/{answer_id}|get|{}|
+|3||update|put|204|
+|4||vote|post|204|
+|5||delete|delete|204|
+
+
+### 3. 모델
+````
+1. User
+  - tablename: user
+  - columns: id, username, password, email, create_date
+  
+2. Question
+  - tablename: question
+  - columns: id, subject, content, create_date, user_id, user, modify_date, voter
+
+3. Answer
+  - tablename: answer
+  - columns: id, content, create_date, user_id, user, modify_date, voter
+
+4. question_voter
+  - tablename: question_voter
+  - columns: question_id, user_id
+
+5. answer_voter
+  - tablename: answer_voter
+  - columns: answer_id, user_id
+````
+
+### 4. 화면
