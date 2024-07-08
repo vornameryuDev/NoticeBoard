@@ -76,3 +76,66 @@
 ````
 
 ### 4. 화면
+
+### 5. 디렉토리
+````
+📦noticeBoard
+ ┣ 📂backend
+ ┃ ┣ 📂domain
+ ┃ ┃ ┣ 📂answer
+ ┃ ┃ ┃ ┣ 📜answer_router.py
+ ┃ ┃ ┃ ┗ 📜answer_schema.py
+ ┃ ┃ ┣ 📂question
+ ┃ ┃ ┃ ┣ 📜question_router.py
+ ┃ ┃ ┃ ┗ 📜question_schema.py
+ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┣ 📜user_router.py
+ ┃ ┃ ┃ ┗ 📜user_schema.py
+ ┃ ┣ 📂migrations
+ ┃ ┃ ┣ 📂versions
+ ┃ ┃ ┃ ┣ 📜0112b8127bb6_.py
+ ┃ ┃ ┃ ┣ 📜318458bc5fa9_.py
+ ┃ ┃ ┃ ┣ 📜4cce96213d30_.py
+ ┃ ┃ ┃ ┣ 📜5b7738a07b98_.py
+ ┃ ┃ ┃ ┣ 📜b649f9c5daba_.py
+ ┃ ┃ ┃ ┗ 📜c036f781ac83_.py
+ ┃ ┃ ┣ 📜env.py
+ ┃ ┃ ┣ 📜README
+ ┃ ┃ ┗ 📜script.py.mako
+ ┃ ┣ 📜alembic.ini
+ ┃ ┣ 📜database.py
+ ┃ ┣ 📜main.py
+ ┃ ┣ 📜models.py
+ ┃ ┗ 📜notice.db
+ ┣ 📂frontend
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜Error.svelte
+ ┃ ┃ ┗ 📜Navigation.svelte
+ ┃ ┣ 📂routes
+ ┃ ┃ ┣ 📜AnswerModify.svelte
+ ┃ ┃ ┣ 📜Detail.svelte
+ ┃ ┃ ┣ 📜Home.svelte
+ ┃ ┃ ┣ 📜QuestionCreate.svelte
+ ┃ ┃ ┣ 📜QuestionModify.svelte
+ ┃ ┃ ┣ 📜UserCreate.svelte
+ ┃ ┃ ┗ 📜UserLogin.svelte
+ ┃ ┣ 📂src
+ ┃ ┃ ┣ 📂assets
+ ┃ ┃ ┣ 📂lib
+ ┃ ┃ ┃ ┣ 📜api.js
+ ┃ ┃ ┃ ┣ 📜Detail.js
+ ┃ ┃ ┃ ┗ 📜store.js
+ ┃ ┃ ┣ 📜app.css
+ ┃ ┃ ┣ 📜App.svelte
+ ┃ ┃ ┣ 📜main.js
+ ┃ ┃ ┗ 📜vite-env.d.ts
+ ┃ ┣ 📜.gitignore
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜jsconfig.json
+ ┃ ┣ 📜package-lock.json
+ ┃ ┣ 📜package.json
+ ┃ ┣ 📜README.md
+ ┃ ┣ 📜svelte.config.js
+ ┃ ┗ 📜vite.config.js
+ ┗ 📜requirements.txt
+````
